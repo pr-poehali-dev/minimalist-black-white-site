@@ -136,9 +136,9 @@ export default function Index() {
             className="flex items-center gap-2.5"
           >
             <img
-              src="https://cdn.poehali.dev/projects/0fb12e59-0dff-405c-8ac5-f8192425a324/files/658cfe46-f934-4c83-8a6f-73add543e8e7.jpg"
+              src="https://cdn.poehali.dev/projects/0fb12e59-0dff-405c-8ac5-f8192425a324/bucket/0896a33e-8fbe-4ae4-a3d2-e3113df24452.jpeg"
               alt="Маскот ПЕРЕКРОЙ"
-              className="w-9 h-9 object-cover grayscale rounded-sm"
+              className="w-9 h-9 object-contain"
             />
             <span className="font-underdog text-2xl tracking-wide">ПЕРЕКРОЙ</span>
           </button>
@@ -604,9 +604,9 @@ export default function Index() {
             <div>
               <div className="flex items-center gap-2 mb-1">
                 <img
-                  src="https://cdn.poehali.dev/projects/0fb12e59-0dff-405c-8ac5-f8192425a324/files/658cfe46-f934-4c83-8a6f-73add543e8e7.jpg"
+                  src="https://cdn.poehali.dev/projects/0fb12e59-0dff-405c-8ac5-f8192425a324/bucket/0896a33e-8fbe-4ae4-a3d2-e3113df24452.jpeg"
                   alt="Маскот"
-                  className="w-8 h-8 object-cover grayscale opacity-60 rounded-sm"
+                  className="w-8 h-8 object-contain opacity-70"
                 />
                 <p className="font-underdog text-3xl text-[#f8f7f5]">ПЕРЕКРОЙ</p>
               </div>
