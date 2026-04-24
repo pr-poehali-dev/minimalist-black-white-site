@@ -133,9 +133,14 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-6 md:px-12 h-16 flex items-center justify-between">
           <button
             onClick={() => scrollTo("hero")}
-            className="font-underdog text-2xl tracking-wide"
+            className="flex items-center gap-2.5"
           >
-            ПК
+            <img
+              src="https://cdn.poehali.dev/projects/0fb12e59-0dff-405c-8ac5-f8192425a324/files/658cfe46-f934-4c83-8a6f-73add543e8e7.jpg"
+              alt="Маскот ПЕРЕКРОЙ"
+              className="w-9 h-9 object-cover grayscale rounded-sm"
+            />
+            <span className="font-underdog text-2xl tracking-wide">ПЕРЕКРОЙ</span>
           </button>
 
           {/* Desktop nav */}
@@ -247,7 +252,7 @@ export default function Index() {
               </div>
               {/* Decorative label */}
               <div className="absolute -top-4 -right-4 bg-[#0a0a0a] text-[#f8f7f5] px-4 py-2">
-                <span className="font-cormorant text-xs italic">ПК</span>
+                <span className="font-underdog text-xs">ПЕРЕКРОЙ</span>
               </div>
             </div>
           </div>
@@ -441,7 +446,7 @@ export default function Index() {
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-[#f8f7f5] text-[#0a0a0a] p-6 w-48">
-                <p className="font-underdog text-4xl">ПК</p>
+                <p className="font-underdog text-2xl">ПЕРЕКРОЙ</p>
                 <p className="font-montserrat text-xs tracking-widest uppercase text-[#888] mt-1">
                   Полный Креатив
                 </p>
@@ -597,7 +602,14 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
             <div>
-              <p className="font-underdog text-3xl mb-1">ПК</p>
+              <div className="flex items-center gap-2 mb-1">
+                <img
+                  src="https://cdn.poehali.dev/projects/0fb12e59-0dff-405c-8ac5-f8192425a324/files/658cfe46-f934-4c83-8a6f-73add543e8e7.jpg"
+                  alt="Маскот"
+                  className="w-8 h-8 object-cover grayscale opacity-60 rounded-sm"
+                />
+                <p className="font-underdog text-3xl text-[#f8f7f5]">ПЕРЕКРОЙ</p>
+              </div>
               <p className="font-montserrat text-xs text-[#555] tracking-widest uppercase">
                 Полный Креатив — Студия кастомизации
               </p>
