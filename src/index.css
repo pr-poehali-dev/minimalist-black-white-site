@@ -72,6 +72,11 @@
   .font-montserrat {
     font-family: "Montserrat", sans-serif;
   }
+
+  .font-underdog {
+    font-family: "Underdog", cursive;
+    letter-spacing: 0.02em;
+  }
 }
 
 /* Animations */

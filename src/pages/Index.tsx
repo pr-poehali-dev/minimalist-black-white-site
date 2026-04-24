@@ -133,7 +133,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-6 md:px-12 h-16 flex items-center justify-between">
           <button
             onClick={() => scrollTo("hero")}
-            className="font-cormorant text-xl font-semibold tracking-widest uppercase"
+            className="font-underdog text-2xl tracking-wide"
           >
             ПК
           </button>
@@ -195,11 +195,11 @@ export default function Index() {
                 Студия кастомизации одежды
               </p>
               <h1
-                className={`font-cormorant text-[clamp(4rem,10vw,8rem)] leading-[0.9] font-light mb-10 ${heroSection.inView ? "animate-fade-up animate-delay-200" : "opacity-0"}`}
+                className={`font-underdog text-[clamp(3.5rem,9vw,7.5rem)] leading-[0.95] mb-10 ${heroSection.inView ? "animate-fade-up animate-delay-200" : "opacity-0"}`}
               >
                 Полный
                 <br />
-                <em>Креатив</em>
+                Креатив
               </h1>
               <div
                 className={`w-12 h-px bg-[#0a0a0a] mb-8 ${heroSection.inView ? "animate-fade-up animate-delay-300" : "opacity-0"}`}
@@ -269,7 +269,7 @@ export default function Index() {
               <p className="font-montserrat text-xs tracking-[0.25em] uppercase text-[#999] mb-4">
                 Что мы делаем
               </p>
-              <h2 className="font-cormorant text-[clamp(2.5rem,5vw,4rem)] font-light">
+              <h2 className="font-underdog text-[clamp(2rem,4vw,3.5rem)]">
                 Услуги студии
               </h2>
             </div>
@@ -304,7 +304,7 @@ export default function Index() {
               <p className="font-montserrat text-xs tracking-[0.25em] uppercase text-[#999] mb-4">
                 Наши работы
               </p>
-              <h2 className="font-cormorant text-[clamp(2.5rem,5vw,4rem)] font-light mb-10">
+              <h2 className="font-underdog text-[clamp(2rem,4vw,3.5rem)] mb-10">
                 Портфолио
               </h2>
 
@@ -396,11 +396,11 @@ export default function Index() {
                 О студии
               </p>
               <h2
-                className={`font-cormorant text-[clamp(2.5rem,5vw,4rem)] font-light mb-8 leading-tight ${aboutSection.inView ? "animate-fade-up animate-delay-100" : "opacity-0"}`}
+                className={`font-underdog text-[clamp(2rem,4vw,3.5rem)] mb-8 leading-tight ${aboutSection.inView ? "animate-fade-up animate-delay-100" : "opacity-0"}`}
               >
                 Мы — студия,
                 <br />
-                <em>где вещи оживают</em>
+                где вещи оживают
               </h2>
               <p
                 className={`font-montserrat text-sm font-light text-[#aaa] leading-relaxed mb-6 ${aboutSection.inView ? "animate-fade-up animate-delay-200" : "opacity-0"}`}
@@ -423,7 +423,7 @@ export default function Index() {
                   { num: "100%", label: "Ручная работа" },
                 ].map((stat) => (
                   <div key={stat.label}>
-                    <p className="font-cormorant text-3xl font-light mb-1">{stat.num}</p>
+                    <p className="font-underdog text-3xl mb-1">{stat.num}</p>
                     <p className="font-montserrat text-xs text-[#555] tracking-wider uppercase">{stat.label}</p>
                   </div>
                 ))}
@@ -441,7 +441,7 @@ export default function Index() {
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-[#f8f7f5] text-[#0a0a0a] p-6 w-48">
-                <p className="font-cormorant text-4xl font-light">ПК</p>
+                <p className="font-underdog text-4xl">ПК</p>
                 <p className="font-montserrat text-xs tracking-widest uppercase text-[#888] mt-1">
                   Полный Креатив
                 </p>
@@ -457,7 +457,7 @@ export default function Index() {
           <p className="font-montserrat text-xs tracking-[0.25em] uppercase text-[#999] mb-4">
             Процесс
           </p>
-          <h2 className="font-cormorant text-[clamp(2.5rem,5vw,4rem)] font-light mb-16">
+          <h2 className="font-underdog text-[clamp(2rem,4vw,3.5rem)] mb-16">
             Как это работает
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -468,10 +468,10 @@ export default function Index() {
               { n: "04", title: "Готово!", desc: "Забираете уникальную вещь. Или доставляем." },
             ].map((step, i) => (
               <div key={i} className="relative">
-                <div className="font-cormorant text-[5rem] font-light leading-none text-[#e0e0e0] mb-2">
+                <div className="font-underdog text-[5rem] leading-none text-[#e0e0e0] mb-2">
                   {step.n}
                 </div>
-                <h3 className="font-cormorant text-xl font-semibold mb-3">{step.title}</h3>
+                <h3 className="font-underdog text-xl mb-3">{step.title}</h3>
                 <p className="font-montserrat text-xs font-light text-[#666] leading-relaxed">{step.desc}</p>
                 {i < 3 && (
                   <div className="hidden md:block absolute top-10 right-0 translate-x-1/2">
@@ -495,11 +495,11 @@ export default function Index() {
                 Контакты
               </p>
               <h2
-                className={`font-cormorant text-[clamp(2.5rem,5vw,4rem)] font-light mb-8 leading-tight ${contactSection.inView ? "animate-fade-up animate-delay-100" : "opacity-0"}`}
+                className={`font-underdog text-[clamp(2rem,4vw,3.5rem)] mb-8 leading-tight ${contactSection.inView ? "animate-fade-up animate-delay-100" : "opacity-0"}`}
               >
                 Готовы создать
                 <br />
-                <em>что-то особенное?</em>
+                что-то особенное?
               </h2>
               <p
                 className={`font-montserrat text-sm font-light text-[#666] mb-10 leading-relaxed ${contactSection.inView ? "animate-fade-up animate-delay-200" : "opacity-0"}`}
@@ -597,7 +597,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
             <div>
-              <p className="font-cormorant text-2xl font-semibold tracking-widest uppercase mb-1">ПК</p>
+              <p className="font-underdog text-3xl mb-1">ПК</p>
               <p className="font-montserrat text-xs text-[#555] tracking-widest uppercase">
                 Полный Креатив — Студия кастомизации
               </p>
